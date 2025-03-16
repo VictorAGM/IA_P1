@@ -105,6 +105,6 @@ numeros=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
 
 lista_sin_repetir=[]
 for i in numeros:
-    if i not in lista_sin_repetir:
+    if i not in lista_sin_repetir:      ##La funcion not in revisa si un elemento NO está en la lista.
         lista_sin_repetir.append(i)
 print(lista_sin_repetir)
