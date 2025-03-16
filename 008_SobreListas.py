@@ -98,3 +98,13 @@ for i in range(ndatos):
 numeros.sort()
 
 print(numeros)
+
+##Eliminar datos repetidos de una lista usando rebanadas
+
+numeros=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+
+lista_sin_repetir=[]
+for i in numeros:
+    if i not in lista_sin_repetir:
+        lista_sin_repetir.append(i)
+print(lista_sin_repetir)
